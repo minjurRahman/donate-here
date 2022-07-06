@@ -14,12 +14,14 @@ body{
     background-size: cover;
     color: white;
     text-align: center;
-    /* padding: 300px; */
     height: 500px;
 }
 
 .top-div{
     padding: 100px;
+}
+p{
+    padding: 20px;
 }
 
 h1{
@@ -29,7 +31,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.top-container a{
+.donate-btn{
     text-decoration: none;
     background-image: linear-gradient(orange,rgb(182, 40, 15));
     padding: 15px 30px;
@@ -37,3 +39,51 @@ h1{
     font-weight: bold;
     border-radius: 5px;
 }
+
+
+
+
+/* Donate Today part Starts */
+
+.donate-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.amount{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.amount-box{
+    background-color: rgb(218, 216, 216);
+    padding: 50px 50px;
+    border: none;
+    margin: 15px;
+    box-shadow: 7px gray ;
+    border-radius: 5px;
+}
+
+.amount-box:hover{
+    border: 2px solid tomato;
+    background-color: rgba(255, 192, 203, 0.486);
+}
+
+#amount-id{
+    color: rgba(0, 0, 0, 0.493);
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: none;
+    margin-bottom: 40px;
+}
+
+
+/* Donate Today part Ends */
