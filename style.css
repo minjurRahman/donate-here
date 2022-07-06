@@ -76,11 +76,17 @@ h2{
     box-shadow: 7px gray ;
     border-radius: 5px;
     padding-bottom: 20px;
+    
 }
 
 .amount-box:hover{
     border: 2px solid tomato;
     background-color: rgba(255, 192, 203, 0.486);
+}
+
+.amount-box h3{
+    padding-bottom: 25px;
+    padding-right: 2px;
 }
 
 input{
