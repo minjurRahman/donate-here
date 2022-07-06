@@ -33,15 +33,20 @@ h2{
 
 #top-para{
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .donate-btn{
     text-decoration: none;
-    background-image: linear-gradient(orange,rgb(182, 40, 15));
+    background-image: linear-gradient(rgb(252, 135, 115),rgb(189, 53, 29));
     padding: 15px 30px;
     color: white;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.donate-btn:hover{
+    background-image: linear-gradient(tomato,rgb(136, 26, 7));
 }
 
 /* Top Container Ends */
@@ -175,7 +180,68 @@ hr{
 }
 
 
-
-
-
 /* Contributes Design Ends */
+
+
+/* Update part Design Starts */
+
+.update-section{
+    text-align: center;
+    margin-top:90px;
+    margin-bottom: 40px;
+}
+
+.update-div{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(245, 181, 108, 0.301);
+    padding-top: 85px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.update-div a{
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 70px;
+    padding: 5px 150px;
+    color: black;
+    background-color: rgba(170, 169, 169, 0.555);
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+}
+
+button{
+    padding: 7px 70px;
+    background-color: rgb(228, 54, 23);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 5px 5px 0px ;
+}
+
+button:hover{
+    background-color: rgb(150, 6, 6) ;
+}
+
+/* Update pats Design Ends */ 
+
+
+
+/* footer design Starts */
+
+footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 50px;
+}
+
+footer h3{
+    font-family: 'Lily Script One', cursive;
+    color: rgb(228, 54, 23);
+    margin-bottom: 30px;
+}
+
+/* Footer design Ends */
