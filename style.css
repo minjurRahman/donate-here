@@ -47,10 +47,10 @@ h1{
 
 .donate-container{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-.amount{
+.flex-container{
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -72,8 +72,10 @@ h1{
     background-color: rgba(255, 192, 203, 0.486);
 }
 
-#amount-id{
-    color: rgba(0, 0, 0, 0.493);
+input{
+    padding-top: 40px;
+    border: none;
+    width: 150px;
 }
 
 hr{
@@ -87,3 +89,43 @@ hr{
 
 
 /* Donate Today part Ends */
+
+
+
+
+/* Donation plan starts */
+
+.plan-card{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    background-color: gray;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+#color-sky{
+    background-color: rgba(128, 186, 209, 0.322);
+}
+#color-pink{
+    background-color: rgba(255, 192, 203, 0.425);
+}
+#color-yellow{
+    background-color: rgba(209, 209, 89, 0.329);
+}
+
+
+.plan-card img{
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.same-col{
+    padding-top: 20px;
+    padding-left:15px ;
+
+}
+
+
+/* Donation plan ends */
